@@ -48,7 +48,7 @@ public class TaskController {
         if (cancelled) {
             return "task stopped.";
         } else {
-            return "Failed to stop task (might have just completed).";
+            return "Failed to stop task or already completed).";
         }
     }
 }
